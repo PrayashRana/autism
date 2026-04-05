@@ -58,21 +58,20 @@ body {
 /* FACTS */
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(px,1fr));
   gap: 20px;
   padding: 20px;
 }
 
 .card {
-  background: white;
-  padding: 20px;
+  background: rgb(214, 205, 205);
+  padding: 1px;
   text-align: center;
-  border-radius: 10px;
-  transition: 0.3s;
+  border-radius: 1px;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-1px);
 }
 
 /* MYTHS */
@@ -110,11 +109,11 @@ body {
 
 .poll button {
   margin: 10px;
-  padding: 10px 20px;
+  padding: 30px 100px;
   background: #6c63ff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 1px;
 }
 
 /* GALLERY */
