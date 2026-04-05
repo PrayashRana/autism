@@ -57,21 +57,17 @@ body {
 
 /* FACTS */
 .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(auto));
-  gap: 10px;
-  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
 }
 
 .card {
-  background: rgb(214, 205, 205);
-  padding: 1px;
+  background: rgb(155, 148, 148);
+  padding: 20px;
   text-align: center;
-  border-radius: 1px;
-}
-
-.card:hover {
-  transform: translateY(-1px);
+  border-radius: 10px;
 }
 
 /* MYTHS */
